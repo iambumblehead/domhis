@@ -1,0 +1,17 @@
+{
+  "name": "domhis",
+  "version": "0.0.1",
+  "license" : "MIT",
+  "readmeFilename": "README.md",
+  "description": "window.history wrapper.",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iambumblehead/domhis.git"
+  },
+  "keywords": [
+    "history",
+    "document.history",
+    "back button"
+  ]
+}
