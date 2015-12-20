@@ -1,5 +1,5 @@
 // Filename: domhis.js
-// Timestamp: 2014.05.15-17:55:56 (last modified)  
+// Timestamp: 2015.12.20-00:35:39 (last modified)
 // Author(s): Bumblehead (www.bumblehead.com)
 //
 // https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history
@@ -7,7 +7,7 @@
 //
 
 
-var domhis = ((typeof module === 'object') ? module : {}).exports = (function (win, loc, his) {
+var domhis = module.exports = (function (win, loc, his) {
 
   win = typeof window === 'object' ? window : {};
   loc = win.location;
