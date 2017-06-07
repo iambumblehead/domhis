@@ -1,7 +1,7 @@
 {
   "name": "domhis",
   "main": "domhis",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "license" : "MIT",
   "readmeFilename": "README.md",
   "description": "window.history wrapper.",
