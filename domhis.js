@@ -6,7 +6,7 @@
 // second param to pushState is ignored by firefox, the 'title' parameter
 //
 
-let domhis = module.exports = ((win, loc, his, ispopping) => {
+export default ((win, loc, his, ispopping) => {
 
   win = typeof window === 'object' ? window : {};
   loc = win.location;

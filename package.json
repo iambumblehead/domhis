@@ -1,14 +1,17 @@
 {
   "name": "domhis",
-  "main": "domhis",
-  "version": "0.0.5",
+  "main": "domhis.js",
+  "type": "module",
+  "exports": {
+    "import": "./domhis.js"
+  },  
+  "version": "0.0.6",
   "license" : "MIT",
   "readmeFilename": "README.md",
   "description": "window.history wrapper.",
-
   "repository": {
     "type": "git",
-    "url": "https://github.com/iambumblehead/domhis.git"
+    "url": "git+https://github.com/iambumblehead/domhis.git"
   },
   "keywords": [
     "history",

@@ -28,7 +28,7 @@ Tests are not automated and are performed by loading a document in the browser.
 - load `test/index.html` in your browser and run tests from the console.
 
 
-![scrounge](https://github.com/iambumblehead/scroungejs/raw/master/img/hand.png) 
+![scrounge](https://github.com/iambumblehead/scroungejs/raw/main/img/hand.png)
 
 (The MIT License)
 
