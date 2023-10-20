@@ -4,7 +4,10 @@
   "type": "module",
   "exports": {
     "import": "./domhis.js"
-  },  
+  },
+  "files": [
+    "./domhis.js"
+  ],
   "version": "0.0.6",
   "license" : "MIT",
   "readmeFilename": "README.md",
