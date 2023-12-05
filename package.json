@@ -2,13 +2,16 @@
   "name": "domhis",
   "main": "domhis.js",
   "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
   "exports": {
     "import": "./domhis.js"
   },
   "files": [
     "./domhis.js"
   ],
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license" : "MIT",
   "readmeFilename": "README.md",
   "description": "window.history wrapper.",
@@ -20,5 +23,8 @@
     "history",
     "document.history",
     "back button"
-  ]
+  ],
+  "devDependencies": {
+    "jsdom": "^22.1.0"
+  }
 }
