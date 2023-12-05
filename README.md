@@ -6,10 +6,10 @@ domhis
 
 ```javascript
 // change the url
-domhis.pushState('/home');
+domhis.pushState(window, '/home');
 
 // getting the url when the 'back' button is pressed
-domhis.onpopstate(function (e, fn) {
+domhis.onpopstate(window, (e, fn) => {
   console.log(e); // /home
   fn();
 });
